@@ -2,6 +2,7 @@ import Test1 from './Test1-JSX'
 import Test2 from './Test2-JSX'
 import PropsTest1 from './Test3-props'
 import PropsTest2 from './Test4-props'
+import StateTest from './Test5-state'
 
 //함수 스타일의 컴포넌트(UI) 선언.. 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Test2 />
       <PropsTest1 />
       <PropsTest2 />
+      <StateTest />
     </div>
   )
 }
