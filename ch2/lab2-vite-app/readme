@@ -1,0 +1,6 @@
+>npm init vite lab2-vite-app -- --template react
+>cd lab2-vite-app
+>npm install
+>npm run dev
+
+index.html => index.jsx ==> App.jsx
