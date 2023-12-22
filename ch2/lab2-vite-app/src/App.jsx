@@ -1,3 +1,5 @@
+import Test1 from './Test1-JSX'
+
 //함수 스타일의 컴포넌트(UI) 선언.. 
 const App = () => {
   const msg = 'World'
@@ -17,6 +19,7 @@ const App = () => {
       <h3>Hello {msg}</h3>
       <hr className="dash-style"/>
       {addResult(10, 20)}
+      <Test1 />
     </div>
   )
 }
