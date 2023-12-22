@@ -4,3 +4,6 @@
 >npm run dev
 
 index.html => index.jsx ==> App.jsx
+
+//5.x.x - 5버전의 최신버전..
+>npm i bootstrap@5.x.x

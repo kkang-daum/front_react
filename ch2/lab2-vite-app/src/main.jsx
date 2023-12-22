@@ -7,6 +7,10 @@ import App from './App.jsx'
 //누가? 모듈 번들러가 처리해 줌으로..
 //React 사상 , 100% 자바스크립트로 컴포넌트 정의(JSX css 모듈로)
 import './index.css'
+//css 파일을 어디선가(꼭 main.jsx 가 아니라고 하더라도) 
+//import 하면 전역위치(어느 jsx 파일이든 상관없이)에서 
+//사용가능하다.
+import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //App 이라는 개발자가 만든 컴포넌트를 를 id 가 root 태그에 출력

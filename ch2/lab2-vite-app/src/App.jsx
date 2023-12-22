@@ -3,7 +3,7 @@ const App = () => {
   const msg = 'World'
   const addResult = (x, y) => {
     return (
-      <div>
+      <div className="card card-body bg-lignt mb-3">
         {/* jsx 내에서 동적 데이터(변수등) 추가는 {}보관법 을 이용 
         jsx 를 이용해 쉽게 js 에서 동적 데이터 포함 화면 준비하지 않으면..
         document.getElementById(), document.createElement()*/}
@@ -12,10 +12,10 @@ const App = () => {
     )
   }
   return (
-    <div>
+    <div className="container">
       <h2>Hello World</h2>
       <h3>Hello {msg}</h3>
-      <hr/>
+      <hr className="dash-style"/>
       {addResult(10, 20)}
     </div>
   )
