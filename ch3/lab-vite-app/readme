@@ -1,0 +1,5 @@
+>npm init vite lab-vite-app -- --template react
+>cd lab-vite-app
+>npm install
+>npm install bootstrap@5.x.x
+>npm run dev
