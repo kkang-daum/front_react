@@ -6,10 +6,12 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 import CSSTest from './lab1-style/Lab1_CSSTest.jsx'
+import StyledComponent from './lab2-styled-component/Lab2_StyledComponent.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
-    <CSSTest />
+    {/* <CSSTest /> */}
+    <StyledComponent />
   </React.StrictMode>,
 )
