@@ -7,6 +7,7 @@
 
 import { PropTypeTest1, PropTypeTest2 } from "./Test1-propType";
 import Message from "./Message";
+import PropTypeTest3 from "./Test2-propType";
 
 const PropTypeComponent = () => {
   const myFun = (x, y) => {
@@ -25,6 +26,8 @@ const PropTypeComponent = () => {
       <PropTypeTest1 id="kim" num={10} bool={true} fun={myFun} obj={user} array={array} />
 
       <PropTypeTest2 message={msgObj} color={'blue'} width={10} info={{ color: 'red', weight: 30 }} nums={[10, 20]} />
+    
+      <PropTypeTest3 />
     </div>
   )
 }
