@@ -28,7 +28,6 @@ const PropTypeTest3 = (props) => {
 //두번째 매개변수는 이 함수를 호출하게 한 속성 명 ==> 여러 속성에 이 함수 재사용 가능하다..
 //세번째 매개변수는 이 함수로 판단하고자 하는 컴포넌트명.. ==> 여러 컴포넌트에서 재사용 가능하다.. 
 const calcChecker = (props, propName, componentName) => {
-  console.log(`2222222: ${propName}`)
    if(propName === 'oper'){
     //이 속성 값 뽑아서.. 
     if(props[propName] !== '+' && props[propName] !== '*'){
@@ -36,15 +35,15 @@ const calcChecker = (props, propName, componentName) => {
       //Error 리턴.. 이 내용의 에러가 콘솔에 출력..
       return new Error(`${propName} 의 속성값은 반드시 '+', '*' 이어야 합니다. (at ${componentName})`)
     }
-    if(propName === 'y'){
-      console.log('111111111111')
-      let y = props[propName]
-      if(y>100 || y<0 || y%2 !== 0){
-
-        return new Error(`${propName} 속성 값은 0이상 100이하의 짝수만 허용합니다.`)
-      }
-    }
+    
    }
+   if(propName === 'y'){
+    let y = props[propName]
+    if(y>100 || y<0 || y%2 !== 0){
+
+      return new Error(`${propName} 속성 값은 0이상 100이하의 짝수만 허용합니다.`)
+    }
+  }
 }
 
 PropTypeTest3.propTypes = {
