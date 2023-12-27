@@ -1,0 +1,6 @@
+>npm init vite todolist-app -- --template react
+>cd todolist-app
+>npm install
+//immer - 불변성 체크 모듈
+//상태값이 변경된 부분을 쉽게 체크해 주는 모듈
+>npm install immer bootstrap@5.x.x prop-types
