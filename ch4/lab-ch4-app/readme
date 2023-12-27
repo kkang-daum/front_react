@@ -1,0 +1,4 @@
+>npm init vite lab-ch4-app -- --template react
+>cd lab-ch4-app
+>npm install
+>npm install bootstrap@5.x.x prop-types
