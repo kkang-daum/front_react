@@ -26,6 +26,9 @@ class InputTodo extends React.Component {
   }
 
   render() {
+
+    console.log('## InputTodo render...')
+
     return (
       <div className='row'>
         <div className='col'>
