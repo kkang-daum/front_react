@@ -1,0 +1,4 @@
+>npm init vite todolist-app-class -- --template react
+>cd todolist-app-class
+>npm install
+>npm install immer bootstrap@5.x.x prop-types
