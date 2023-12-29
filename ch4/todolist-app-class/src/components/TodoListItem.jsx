@@ -1,12 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-class TodoListItem extends React.Component {
+//PureComponent 를 상속받아 컴포넌트 선언..
+//Component 의 서브 클래스이고, shouldComponentUpdate() 함수가 오버라이드되어
+//props, state 객체비교 알고리즘이 이미 되어 있는 클래스..
+class TodoListItem extends React.PureComponent {
 
-  shouldComponentUpdate(nextProps, nextState){
-    if(nextProps.todoItem !== this.props.todoItem) return true 
-    else return false
-  }
+  // shouldComponentUpdate(nextProps, nextState){
+  //   if(nextProps.todoItem !== this.props.todoItem) return true 
+  //   else return false
+  // }
 
   render() {
 

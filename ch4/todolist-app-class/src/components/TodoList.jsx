@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import TodoListItem from './TodoListItem'
 
-class TodoList extends React.Component {
+class TodoList extends React.PureComponent {
 
-  shouldComponentUpdate(nextProps, nextState){
-    if(nextProps.todoList !== this.props.todoList) return true 
-    else return false
-  }
+  // shouldComponentUpdate(nextProps, nextState){
+  //   if(nextProps.todoList !== this.props.todoList) return true 
+  //   else return false
+  // }
 
   render() {
 
