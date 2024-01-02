@@ -1,0 +1,18 @@
+>npm init vite hof-test-app -- --template react
+>cd hof-test-app
+>npm install 
+>npm install date-and-time
+
+ch5 에서 컴포넌트의 공통코드... custom hook 으로 처리... 
+custom hook 을 만들고 필요한 컴포넌트에서 hook 이용해서 공통코드 이용.. 
+==>
+동일한 코드를 high order component 로 돌려 보겠다.. 
+
+
+
+컴포넌트들의 공통코드 분리해서 재사용
+1. custom hook 으로 개발
+- 코드가 간결. 이용 편의, 코드가 직관적.. 
+
+2. high order component 개발.. 
+- 함수형, 클래스형 컴포넌트 모두 이용.. 
