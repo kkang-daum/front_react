@@ -1,0 +1,5 @@
+>npm init vite todolist-app -- --template react
+>cd todolist-app
+>npm install
+>npm install date-and-time bootstrap@5.x.x immer
+
