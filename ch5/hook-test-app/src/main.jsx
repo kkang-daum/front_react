@@ -10,6 +10,7 @@ import ArrayReduceComponent from './lab3-array-reduce/ArrayReduce'
 import UseReducerComponent from './lab4-useReducer/UseReducerTest'
 import UseRefComponent from './lab5-useRef/UseRef'
 import UseMemoCallbackComponent from './lab6-memo-callback/UseMemoCallbackTest'
+import CustomHookComponent from './lab7-custom-hook/CustomHookTest'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <ArrayReduceComponent /> */}
     {/* <UseReducerComponent /> */}
     {/* <UseRefComponent /> */}
-    <UseMemoCallbackComponent />
+    {/* <UseMemoCallbackComponent /> */}
+    <CustomHookComponent />
   </React.StrictMode>,
 )
