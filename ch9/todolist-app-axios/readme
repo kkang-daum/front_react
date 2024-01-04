@@ -1,0 +1,5 @@
+>npm init vite todolist-app-axios -- --template react
+>cd todolist-app-axios
+>npm install
+>npm install react-router react-router-dom bootstrap date-and-time immer 
+  axios react-spinners
