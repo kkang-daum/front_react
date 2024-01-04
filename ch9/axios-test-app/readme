@@ -1,0 +1,8 @@
+>npm init vite axios-test-app -- --template react
+>cd axios-test-app
+>npm install
+>npm install axios
+
+서버 준비..
+>npm install
+>npm run start:dev
