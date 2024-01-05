@@ -1,0 +1,8 @@
+>npm init vite todolist-app-redux -- --template react
+>cd todolist-app-redux
+>npm install
+
+//redux 를 직접 이용해도 되고, redux 를 도와주기 위한 toolkit 이 
+//제공되어 toolkit 을 이용해도 되고..
+>npm install react-router react-router-dom bootstrap date-and-time 
+  immer redux react-redux @reduxjs/toolkit
