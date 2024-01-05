@@ -10,7 +10,7 @@ const app = express();
 
 //cross domain 문제 해결.. 아래처럼 cors모듈을 등록하는 것만으로.. 
 //response header 조정..
-// app.use(cors());
+app.use(cors());
 
 app.use(function (req, res, next) {
     res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
